@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-image: url("../images/bg-header.jpg");
+  background-size: 100%;
+  height: 190px;
+  padding: 20px;
+  color: black;
+}
+
+.Menu-header {
+  background: #fff;
+  height: 135px;
+  margin: 7px 100px 0 100px;
+  /* margin: 2% 5% 0 5% */
+}
+
+/* @media (min-width: 480px) 
+{.container{width:450px;}}
+@media (min-width: 768px) 
+{.container{width:750px;}
+}@media (min-width: 992px) 
+{.container{width:970px;}}
+@media (min-width: 1200px) 
+{.container{width:100%;}} */
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-logo {
+  padding: 15px;
+  float: left;
+  height: 120px;
+  margin: 9px;
+}
+.App-intro {
+  font-size: large;
+}
+
+.botao {
+  color: red !important;
+  border-color: red !important;
+  padding: 10px !important;
+}
+
+.botao-header {
+  margin-top: -10px;
+}
+
+.navbar-right {
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+.navbar-right, li{
+  padding-top: 50px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+}
+
+.App-footer {
+  background: #E6E6E6;
+  height: 400px;
+  margin-bottom: 12px;
+}
+
+.App-footer-elements {
+   padding: 100px;
+}
+
+.navbar-down {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.navbar-down , li{
+  padding-top: 0px;
+  padding-left: 25px;
+  font-size: 13px;
+}
+
+.titulo-footer {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+.App-logo-footer {
+  padding: 15px;
+  float: left;
+  height: 150px;
+  margin: 20px 9px;
+}
+
+#fb-img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+#box-novidades {
+  background: red;
+  height: 100px;
+  margin: 7px 100px 0 100px;
+}
+
+.titulo-box {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+.botao-box {
+  color: white !important; 
+  border-color: white !important;
+  border: 3px solid !important; 
+  border-radius: 1px !important; 
+  background-color: red !important;
+  padding: 10px !important;
+}
+
+.box-elements{
+  padding-top: 35px;
+}
+
