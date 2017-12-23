@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.png';
 import '../styles/App.css';
-import '../styles/bootstrap/css/bootstrap.min.css';
 
 
 class App extends Component {
@@ -19,14 +18,14 @@ class App extends Component {
                 <li>RECEITAS</li>												
                 <li>INSTITUCIONAL</li>
                 <li>CONTATO</li>
-                <li className="botao-header"><button type="button" className="btn btn-default botao">CARTÃO FIDELIDADE</button></li>
+                <li className="botao-header"><button type="button" className="btn btn-default botao"><b>CARTÃO FIDELIDADE</b></button></li>
               </ul>
             </nav>
           </div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="localizacao-site">
+          Você esta em: Home > Receitas > Bolo Paçoca com Cobertura Cremosa
+        </div>
       </div>
     );
   }
