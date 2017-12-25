@@ -13,12 +13,13 @@ class App extends Component {
         <News />
         <div className="App-footer">
             <div className="App-footer-elements">
-                <div className="col-md-4">
+                <div className="col-md-4 logo-footer">
                     <img src={logo} className="App-logo-footer" alt="logo" />
                 </div>
-                <div className="col-md-4">
+                <hr className="linha-footer" />
+                <div className="col-md-4 lojas-footer">
                     <div className="titulo-footer">Lojas</div>
-                    <ul class="navbar-down">
+                    <ul className="navbar-down">
                         <li>Guabiruba - SC (Matriz)</li>
                         <li>Brusque - SC (Dom Joaquim)</li>
                         <li>Brusque - SC (Guarani)</li>								
@@ -35,23 +36,32 @@ class App extends Component {
                         <li>Guabiruba - SC (Carol Presentes)</li>
                     </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 social-footer">
                     <div className="titulo-footer">Siga-nos</div>
-                    <ul class="uisocial-index radius social">
-                        <li>
-                            <a class="facebook" title="Facebook" target="_blank" href="https://www.facebook.com/supermercadoscarol">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <div className="social-media">
+                        <a target="_blank" href="https://www.facebook.com/supermercadoscarol">
+                            <i className="fa fa-facebook fa-3x"></i>
+                        </a>
+                        <a  target="_blank" href="https://www.facebook.com/supermercadoscarol">
+                            <i className="fa fa-google-plus fa-3x"></i>
+                        </a>
+                        <a  target="_blank" href="https://www.facebook.com/supermercadoscarol">
+                            <i className="fa fa-twitter fa-3x"></i>
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/supermercadoscarol">
+                            <i className="fa fa-whatsapp fa-3x"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        <h5>Todos os direitos reservados. Supermercados Carol 2017.</h5>
-        <ul className="lista-img-footer">
-            <li><img src={dblink} className="img-footer" alt="Dblink"  /> </li>
-            <li><img src={sysmo} className="img-footer" alt="Sysmo"  /> </li>
-        </ul>
+        <div className="direitos">
+            <h5>Todos os direitos reservados. Supermercados Carol 2017.</h5>
+            <ul className="lista-img-footer">
+                <li><img src={dblink} className="img-footer" alt="Dblink"  /> </li>
+                <li><img src={sysmo} className="img-footer" alt="Sysmo"  /> </li>
+            </ul>
+        </div>
     </div>
     );
   }

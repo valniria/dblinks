@@ -2,42 +2,44 @@
   text-align: center;
 }
 
-
 .App-header {
-  background-image: url("../images/bg-header.jpg");
-  background-size: 100%;
-  height: 190px;
-  padding: 20px;
+  width:100%;
+  padding: 25px; 
   color: black;
+  box-shadow: 0px 2px 6px #e1dede
+}
+
+.img-header {
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top:0;
+  left: 0;
 }
 
 .Menu-header {
   background: #fff;
-  height: 135px;
-  margin: 7px 100px 0 100px;
-  /* margin: 2% 5% 0 5% */
+  position: relative;
+
 }
-
-/* @media (min-width: 480px) 
-{.container{width:450px;}}
-@media (min-width: 768px) 
-{.container{width:750px;}
-}@media (min-width: 992px) 
-{.container{width:970px;}}
-@media (min-width: 1200px) 
-{.container{width:100%;}} */
-
 
 .App-title {
   font-size: 1.5em;
 }
 
 .App-logo {
-  padding: 15px;
+    float: left;
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/* .App-logo {
+  padding: 1%;
   float: left;
   height: 120px;
-  margin: 9px;
-}
+  margin: 1%;
+} */
 .App-intro {
   font-size: large;
 }
@@ -53,20 +55,27 @@
 }
 
 .navbar-right {
-  display: flex;
+  display: inline-flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: gray;
 }
 .navbar-right, li{
-  padding-top: 50px;
-  padding-right: 15px;
+  padding-right: 25px; 
   font-size: 13px;
   font-weight: bold;
+  top: 70px;
+  position: relative;
 }
+.navbar-right li a {
+  padding-right: 25px; 
+}
+
 ul {
   list-style-type: none;
 }
-
+#btn-bars {
+  display: none;
+}
 .App-footer {
   background: #E6E6E6;
   height: 400px;
@@ -84,8 +93,7 @@ ul {
 }
 
 .navbar-down , li{
-  padding-top: 0px;
-  padding-left: 25px;
+  top: 10px;
   font-size: 13px;
 }
 
@@ -94,7 +102,6 @@ ul {
   font-size: 15px;
   font-weight: bold;
   padding-left: 50px;
-  padding-bottom: 15px;
 }
 
 .App-logo-footer {
@@ -117,6 +124,8 @@ ul {
 
 #box-vermelho {
   padding-top: 50px;
+  top: 45px;
+   position: relative; 
 }
 
 .titulo-box {
@@ -141,19 +150,45 @@ ul {
 }
 
 #receita-topo {
-  margin: 120px 120px 50px 120px;
+  margin: 120px 120px -30px 120px;
 }
 
 .img-receita{
   width: 515px;
 }
 
+#compartilhe {
+  margin-top: 70px;
+}
+
+#compartilhe a {
+   margin-right: 20px;
+}
+
 .img-icones-receita {
   width: 100%;
 }
 
-.social li {
-  font-size: 30px;
+.linha {
+  border-top: 4px solid #eee;
+}
+.linha-footer {
+   display: none; 
+  /* border-top: 4px solid #eee; */
+}
+.social-media a {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.social {
+  display: inline-flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+.social, li{
+  padding-right: 25px; 
+  /* font-size: 33px; */
+  position: relative;
 }
 
 #receita-data {
@@ -166,6 +201,7 @@ ul {
   color: #ee3a43;
   padding-top: 10px;
   padding-bottom: 25px;
+  line-height: 1;
 }
 
 .inf-receita-titulo {
@@ -177,7 +213,12 @@ ul {
 }
 
 #receita-ingredientes-icones {
-  padding: 10px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.receita-ingredientes {
+  margin-bottom: 100px;
 }
 
 .receita-preparo-titulo {
@@ -188,8 +229,8 @@ ul {
 
 .receita-passos li {
   font-weight: normal;
-  margin-left: -20px;
-  padding-bottom: 20px;
+  margin-left: 20px;
+  padding-bottom: 15px;
   list-style-type: circle;
   padding-left: 5px;
 }
@@ -199,12 +240,11 @@ ul {
 }
 
 #receita-passo-inicial {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .receita-meio {
-  margin: 15px 120px 20px 120px;
+   margin: 15px 120px 20px 120px; 
 }
 
 .receita-formulario {
@@ -220,6 +260,7 @@ ul {
   padding-top: 15px;
   color: gray;
   margin-right: 250px;
+  margin-top:10px
 }
 
 .img-ver-tambem {
@@ -237,7 +278,7 @@ h5 {
 }
 
 .lista-img-footer {
-  display: flex;
+  display: inline-flex;
   float: right;
   margin-top: -25px;
 }

@@ -1,0 +1,366 @@
+/* tamanho padrão para tables */
+@media only screen and (max-width: 769px) {
+    
+    /* .App-logo {
+        padding: 3%;
+        float: left;
+        height: 120px;
+        margin-left: -15%;
+    } */
+
+    /* #btn-bars {
+        color: #ee3a43;
+        font-size: 40px;
+        background: none;
+        border: none;
+        margin: 0px 0 0 200px;
+        display: block;
+    } */
+
+    .img-header, .navbar-right{
+        display: none;
+    }
+
+    .App-logo {
+        float: left;
+        margin: -6%;
+        width: 50%;
+    }
+
+    #btn-bars {
+        color: #ee3a43;
+        font-size: 40px;
+        background: none;
+        border: none;
+        margin: -5% 0 0 92%;
+        display: block;
+    }
+    .localizacao-site {
+        float: none;
+        padding-top: 0px;
+        color: gray;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    #receita-topo {
+        margin: 20px 0px 30px 15px
+    }
+
+    .img-receita{
+       width: 95%;
+    }
+
+    #compartilhe {
+        margin-top: 35px;
+    }
+
+
+    .social {
+        margin-top: -20px;
+    }
+
+    .social, li{
+        padding-right: 5px;
+        position: relative;
+    }
+
+    .img-icones-receita {
+        width: 50px;
+    }
+
+    .receita-meio {
+        margin: 0px 0px 20px 20px
+    }
+
+    .img-ver-tambem {
+        width: 217px;
+    }
+
+    #box-novidades {
+        background: red;
+        height: 180px;
+        margin: 0;
+    }
+
+    #box-vermelho {
+        padding-top: 0px;
+        top: 45px;
+        position: relative; 
+    }
+    .box-elements{
+        padding-top: 10px;
+    }
+
+    .botao-box {
+        color: white !important; 
+        border-color: white !important;
+        border: 3px solid !important; 
+        border-radius: 1px !important; 
+        background-color: red !important;
+        padding: 10px !important;
+        width: 100%;
+        margin-top:20px;
+    }
+
+    .App-footer {
+        background: #E6E6E6;
+        height: 600px;
+        margin-bottom: 12px;
+    }
+
+
+    .navbar-down {
+        display: block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: gray;
+        padding-left: 0;
+    }
+
+    .navbar-down , li{
+        top: 10px;
+        font-size: 13px;
+        width: 50px;
+    }
+
+    .titulo-footer {
+        color: gray;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 50px;
+        padding-bottom: 15px;
+        margin-top: 100px;
+    }
+
+    .App-logo-footer {
+        padding: 10px;
+        float: none;
+        margin: -20px 0 -50px 0
+    }
+
+    .social-footer {
+        /* display: none; */
+    }
+
+    .direitos {
+        display: none;
+    }
+
+    .linha-footer {
+        border-top: 4px solid gray;
+    }
+
+    .receita-ingreditentes {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .receita-passos, li {
+        width: 300px;
+    }
+    
+    .receita-ingredientes-maior {
+        width: 300px;
+    }
+
+    .lojas-footer {
+        left:0;
+    }
+}
+
+/* tamanho padrão para smartphones */
+ @media only screen and (max-width: 480px) {
+
+    .img-header, .navbar-right{
+        display: none;
+    }
+
+    .App-logo {
+        float: left;
+        margin: -6%;
+        width: 50%;
+    }
+
+    #btn-bars {
+        color: #ee3a43;
+        font-size: 40px;
+        background: none;
+        border: none;
+        margin: -5% 0 0 92%;
+        display: block;
+    }
+
+    .localizacao-site {
+        float: none;
+        padding-top: 0px;
+        color: gray;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    #receita-topo {
+        margin: 20px 0px 30px 15px
+    }
+
+    .img-receita{
+       width: 95%;
+    }
+
+    #compartilhe {
+        margin-top: 35px;
+    }
+
+    .social {
+        margin-top: -20px;
+    }
+
+    .social, li{
+        padding-right: 5px;
+        position: relative;
+    }
+
+    .img-icones-receita {
+        width: 50px;
+    }
+
+    .receita-meio {
+        margin: 0px 0px 20px 20px
+    }
+
+    .img-ver-tambem {
+        width: 177px;
+    }
+
+    #box-novidades {
+        background: red;
+        height: 180px;
+        margin: 0;
+    }
+
+    #box-vermelho {
+        padding-top: 0px;
+        top: 45px;
+        position: relative; 
+    }
+    .box-elements{
+        padding-top: 10px;
+    }
+
+    .botao-box {
+        color: white !important; 
+        border-color: white !important;
+        border: 3px solid !important; 
+        border-radius: 1px !important; 
+        background-color: red !important;
+        padding: 10px !important;
+        width: 100%;
+        margin-top:20px;
+    }
+
+    .App-footer {
+        background: #E6E6E6;
+        height: 600px;
+        margin-bottom: 12px;
+    }
+
+    .App-footer-elements {
+         /* padding: 400px;  */
+    }
+
+    .navbar-down {
+        display: block;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: gray;
+        padding-left: 0;
+    }
+
+    .navbar-down , li{
+        top: 10px;
+        font-size: 13px;
+        width: 50px;
+    }
+
+    .titulo-footer {
+        color: gray;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 50px;
+        padding-bottom: 15px;
+        margin-top: 100px;
+    }
+
+    .App-logo-footer {
+        padding: 10px;
+        float: none;
+        margin: -55px -100px
+    }
+
+    .social-footer {
+        display: none;
+    }
+
+    .direitos {
+        display: none;
+    }
+
+    .linha-footer {
+        border-top: 4px solid gray;
+    }
+
+    .receita-ingreditentes {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .receita-passos, li {
+        width: 300px;
+    }
+    
+    .receita-ingredientes-maior {
+        width: 300px;
+    }
+
+    .lojas-footer {
+        left:0;
+    }
+
+    /* header #menu-mobile {
+        position: fixed;
+        background-color: #fff;
+        top:0px;
+        width: 100%;
+        transition: 1s;
+        height: 100%;
+        z-index: 2;
+    }
+
+    header.open-menu #menu-mobile {
+        left: 0;
+    }
+
+    header.open-menu #menu-mobile li {
+        text-align: center;
+        font-size: 14px;
+        padding: 15px;
+        border-bottom: #ccc 1px solid;
+    }
+
+    header.open-menu #menu-mobile li .botao-header {
+        text-align: center;
+        width: 100%
+    }
+
+    header.open-menu .bar-close {
+        position: absolute;
+        top: 5px;
+        background-color: #ee3a43;
+        height: 40px;
+        right: 45px;
+    }
+    header.open-menu .bar-close .btn-close {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 22px;
+        transition: 2s;
+    } */
+} 
