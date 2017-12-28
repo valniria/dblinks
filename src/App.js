@@ -3,9 +3,6 @@ import Header from './pages/Header';
 import Footer from './pages/Footer';
 import ReceitaTopo from './pages/Receita-Topo';
 import VejaTambem from './pages/Veja-Tambem';
-import $ from 'jquery';
-// import './js/jquery-1.12.4.min'
-// import './js/bootstrap.min';
 
 // import './js/scripts';
 import './styles/bootstrap/css/bootstrap.min.css';

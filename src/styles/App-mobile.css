@@ -1,21 +1,21 @@
 /* tamanho padrão para tables */
 @media only screen and (max-width: 769px) {
     
-    /* .App-logo {
+     .App-logo {
         padding: 3%;
         float: left;
         height: 120px;
         margin-left: -15%;
-    } */
+    } 
 
-    /* #btn-bars {
+     #btn-bars {
         color: #ee3a43;
         font-size: 40px;
         background: none;
         border: none;
         margin: 0px 0 0 200px;
         display: block;
-    } */
+    } 
 
     .img-header, .navbar-right{
         display: none;
@@ -323,14 +323,15 @@
         left:0;
     }
 
-    /* header #menu-mobile {
+     header #menu-mobile {
         position: fixed;
         background-color: #fff;
         top:0px;
         width: 100%;
         transition: 1s;
         height: 100%;
-        z-index: 2;
+        z-index: 5;
+        left: -100%;
     }
 
     header.open-menu #menu-mobile {
@@ -342,6 +343,10 @@
         font-size: 14px;
         padding: 15px;
         border-bottom: #ccc 1px solid;
+    }
+
+    header.open-menu #menu-mobile li:last-child {
+        border: none;
     }
 
     header.open-menu #menu-mobile li .botao-header {
@@ -362,5 +367,5 @@
         color: white;
         font-size: 22px;
         transition: 2s;
-    } */
+    } 
 } 
