@@ -125,7 +125,7 @@ ul {
 #box-vermelho {
   padding-top: 50px;
   top: 45px;
-   position: relative; 
+  position: relative; 
 }
 
 .titulo-box {
@@ -249,6 +249,7 @@ ul {
 
 .receita-formulario {
   margin-top: 30px;
+  transition: 1s;
 }
 
 .receita-formulario label{
@@ -281,4 +282,8 @@ h5 {
   display: inline-flex;
   float: right;
   margin-top: -25px;
+}
+
+.hidden { 
+  display:none; 
 }

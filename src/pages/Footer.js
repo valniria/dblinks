@@ -7,6 +7,15 @@ import sysmo from '../images/logo-sysmo.png';
 import '../styles/App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+  }
+ 
+  handleTop() {
+      window.scrollTo(0, 0)
+  }
+
+
   render() {
     return (
     <div>
@@ -61,6 +70,9 @@ class App extends Component {
                 <li><img src={dblink} className="img-footer" alt="Dblink"  /> </li>
                 <li><img src={sysmo} className="img-footer" alt="Sysmo"  /> </li>
             </ul>
+        </div>
+        <div id="topcontrol" className="topcontrol" title="" onClick={ () => this.handleTop() }>
+            <i className="fa fa-angle-up scrolltop"></i>
         </div>
     </div>
     );
